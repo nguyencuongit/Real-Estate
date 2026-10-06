@@ -8,5 +8,5 @@ Theme::routes();
 
 // Use the demo homepage even when the database has an existing CMS homepage.
 Theme::registerRoutes(function (): void {
-    Route::get('/', ResidenceController::class)->name('public.index');
+    Route::get('/', [ResidenceController::class, '__invoke'])->name('public.index');
 });
