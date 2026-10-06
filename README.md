@@ -36,3 +36,9 @@ npm run dev build assets một lần; dùng npm run watch khi sửa giao diện.
 Theme An Nhiên Residence đã được thêm vào `platform/themes/an-nhien-residence` và được chọn cho trang chủ local. Vào **Quản trị → Giao diện → Giao diện** tại `/admin/theme/all` để chọn **Bất động sản** hoặc quay lại Shofy.
 
 Theme giữ giao diện, ảnh và nội dung mẫu từ `F:\an-nhien-residence-demo`; form đặt lịch chỉ chạy tại trình duyệt. Hướng dẫn chỉnh sửa và publish assets nằm trong `platform/themes/an-nhien-residence/README.md`. Môi trường local dùng `APP_DEBUG=false` để không hiện thanh debug khi demo khách hàng.
+
+## Demo Lumi Academy
+
+Theme **Lumi Academy** được chuyển từ `F:\lumi-academy-demo`. Mở `/theme-preview/` để chọn giao diện, hoặc `/theme-preview/?theme=lumi-academy` để xem trực tiếp. Theme cũng có trong `/admin/theme/all` nếu muốn kích hoạt làm trang chủ.
+
+Giao diện giữ cảnh 3D và các tương tác học thử; form đăng ký chỉ mô phỏng trên trình duyệt. Hướng dẫn chỉnh sửa nằm trong `platform/themes/lumi-academy/README.md`.

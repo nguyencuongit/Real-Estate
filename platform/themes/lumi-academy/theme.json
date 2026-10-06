@@ -1,0 +1,9 @@
+{
+    "id": "local/lumi-academy",
+    "name": "Lumi Academy",
+    "namespace": "Theme\\LumiAcademy\\",
+    "author": "Lumi Academy",
+    "version": "1.0.0",
+    "description": "Demo khóa học sáng tạo web 3D với cảnh tương tác, lộ trình và bài học thử Lumi Academy.",
+    "required_plugins": []
+}
