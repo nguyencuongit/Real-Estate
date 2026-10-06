@@ -1,0 +1,8 @@
+{
+    "id": "local/test-2",
+    "name": "Test 2",
+    "namespace": "Theme\\Test2\\",
+    "author": "Local",
+    "version": "1.0.0",
+    "description": "Minimal theme demo 2"
+}
