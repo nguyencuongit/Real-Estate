@@ -18,7 +18,7 @@
                     <p class="gym-footer__label">Liên hệ</p>
                     <a href="tel:02873009999">028 7300 9999</a>
                     <a href="mailto:hello@pulsegym.vn">hello@pulsegym.vn</a>
-                    <span>08:00 – 22:00, mỗi ngày</span>
+                    <span>08:00 - 22:00, mỗi ngày</span>
                     <span>Quận 7, TP. Hồ Chí Minh</span>
                 </div>
                 <div>
