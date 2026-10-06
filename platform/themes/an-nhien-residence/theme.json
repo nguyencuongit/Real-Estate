@@ -1,0 +1,9 @@
+{
+    "id": "local/an-nhien-residence",
+    "name": "Bất động sản",
+    "namespace": "Theme\\AnNhienResidence\\",
+    "author": "An Nhiên Residence",
+    "version": "1.0.0",
+    "description": "Demo căn hộ ven biển với giao diện, hình ảnh và tương tác mẫu An Nhiên Residence.",
+    "required_plugins": []
+}

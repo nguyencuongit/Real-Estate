@@ -1,0 +1,33 @@
+AN NHIÊN RESIDENCE — HỒ SƠ CONCEPT
+Chốn về bên biển / Đà Nẵng, Việt Nam
+
+Đây là dự án hư cấu để minh họa giao diện website bất động sản.
+Không phải tài liệu chào bán hoặc hồ sơ pháp lý của dự án thực tế.
+
+Ý TƯỞNG
+Một cộng đồng ven biển với không gian mở, ban công và tiện ích gần nhà.
+
+THÔNG SỐ THIẾT KẾ MINH HỌA
+84 căn hộ, 3 khối nhà, 64% không gian mở dự kiến.
+1 phòng ngủ: 58 m² / 1 phòng tắm.
+2 phòng ngủ: 84 m² / 2 phòng tắm.
+3 phòng ngủ: 128–168 m² / 2 phòng tắm.
+Sơ đồ mặt bằng không theo tỷ lệ.
+
+TIỆN ÍCH Ý TƯỞNG
+Hồ bơi và sân nắng; vườn và đường dạo; lounge cộng đồng; không gian wellness.
+
+THÔNG TIN CẦN BỔ SUNG KHI DÙNG CHO DỰ ÁN THẬT
+Chủ đầu tư, địa chỉ chính xác, hồ sơ pháp lý, tiến độ, giá bán,
+chính sách, đơn vị quản lý và thông tin liên hệ được xác nhận.
+Chưa có lịch mở bán hoặc thời gian bàn giao.
+
+NGUỒN
+Thiết kế tham khảo ERA Residence: https://www.era-residence.com/
+Bố cục tham khảo Masteri Lakeside: https://masterisehomes.com/masteri-lakeside/
+Ảnh minh họa: Pexels và Unsplash. Chi tiết ở assets/sources.json.
+
+CHẠY BẢN DEMO
+Nhấp đúp CHAY-WEBSITE.cmd trong F:\an-nhien-residence-demo.
+Website: http://127.0.0.1:4176/
+Biểu mẫu chỉ hiển thị kết quả mẫu trên trình duyệt, không gửi dữ liệu đi.
