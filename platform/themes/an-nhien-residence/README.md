@@ -31,4 +31,13 @@ node --test platform/themes/an-nhien-residence/tests/motion.test.cjs
 
 Theme dùng tài nguyên tĩnh có sẵn, không cần npm build. Nội dung và thông số của An Nhiên Residence là minh họa demo như bản nguồn.
 
+`webpack.mix.js` đưa nguyên tài nguyên từ `public/` của theme sang `public/themes/an-nhien-residence/` khi build ở thư mục gốc dự án. Có thể build riêng theme bằng PowerShell:
+
+```powershell
+$env:npm_config_theme = 'an-nhien-residence'
+npm run dev
+# Hoặc npm run prod
+Remove-Item Env:npm_config_theme
+```
+
 Hai dấu cộng trên banner ban ngày bám theo vị trí tòa căn hộ và biệt thự khi ảnh phóng to. Rê chuột hoặc dùng bàn phím để mở ảnh xem trước; nhấn để giữ ảnh, nhấn Escape hoặc chạm ra ngoài để đóng. Ảnh `hotspot-tower.webp` và `hotspot-villa.webp` được cắt từ `hero-day.webp`. Các điểm nằm ngoài phần ảnh hiển thị sẽ được ẩn; cảnh hoàng hôn dùng ảnh khác nên không hiển thị hai điểm này.

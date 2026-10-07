@@ -1,0 +1,9 @@
+{
+    "id": "local/fashion",
+    "name": "Thời trang",
+    "namespace": "Theme\\TGThangFashion\\",
+    "author": "TG Thang",
+    "version": "1.0.0",
+    "description": "Atelier thời trang TG Thang: video điện ảnh, bộ sưu tập theo cuộn, túi xoay 360° và trải nghiệm đặt riêng bằng tiếng Việt.",
+    "required_plugins": []
+}

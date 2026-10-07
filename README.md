@@ -37,8 +37,32 @@ Theme An Nhiên Residence đã được thêm vào `platform/themes/an-nhien-res
 
 Theme giữ giao diện, ảnh và nội dung mẫu từ `F:\an-nhien-residence-demo`; form đặt lịch chỉ chạy tại trình duyệt. Hướng dẫn chỉnh sửa và publish assets nằm trong `platform/themes/an-nhien-residence/README.md`. Môi trường local dùng `APP_DEBUG=false` để không hiện thanh debug khi demo khách hàng.
 
-## Demo Lumi Academy
+## Demo Khóa học (Lumi Academy)
 
-Theme **Lumi Academy** được chuyển từ `F:\lumi-academy-demo`. Mở `/theme-preview/` để chọn giao diện, hoặc `/theme-preview/?theme=lumi-academy` để xem trực tiếp. Theme cũng có trong `/admin/theme/all` nếu muốn kích hoạt làm trang chủ.
+Theme **Khóa học** được chuyển từ `F:\lumi-academy-demo`. Mở `/theme-preview/` để chọn giao diện, hoặc `/theme-preview/?theme=lumi-academy` để xem trực tiếp. Theme cũng có trong `/admin/theme/all` nếu muốn kích hoạt làm trang chủ.
 
 Giao diện giữ cảnh 3D và các tương tác học thử; form đăng ký chỉ mô phỏng trên trình duyệt. Hướng dẫn chỉnh sửa nằm trong `platform/themes/lumi-academy/README.md`.
+
+## Demo Giới thiệu xe ô tô (VANTA Revuelto)
+
+Theme **Giới thiệu xe ô tô** từ `F:\revuelto-atelier-demo` có ở `/theme-preview/` và `/admin/theme/all`. Mở `/theme-preview/?theme=revuelto-atelier` để xem trực tiếp. Banner có nút **Xem xe 360°** với mô hình 3D thật, kéo xoay, zoom, tự động xoay và điều khiển bàn phím. Hướng dẫn nằm trong `platform/themes/revuelto-atelier/README.md`.
+
+## Demo Công ty xây dựng — TG Thang
+
+Theme **Công ty xây dựng — TG Thang** có tại `/theme-preview/?theme=tg-thang` và `/admin/theme/all`. Giao diện tiếng Việt tham khảo phong cách Enerblock: nền đỏ san hô, lưới kỹ thuật, ảnh công trình lớn, phần giải pháp và dự án. Có mô hình khung nhà 3D xoay/tách tầng, menu, chi tiết dự án và form tư vấn mẫu. Form không gửi hoặc lưu dữ liệu. Hướng dẫn và thông tin nguồn ảnh nằm trong `platform/themes/tg-thang/README.md`.
+
+## Demo Làm đẹp — TG Thang
+
+Theme **Làm đẹp** có tại `/theme-preview/?theme=lam-dep` và `/admin/theme/all`. Giao diện tiếng Việt tham khảo Ever với logo TG Thang riêng, tông nâu, video banner, gallery chạy ngang, ảnh chuyển động theo cuộn và các điểm chọn dịch vụ. Menu, chi tiết dịch vụ, FAQ và form đặt lịch mẫu có thể tương tác trực tiếp. Hướng dẫn và nguồn tư liệu nằm trong `platform/themes/lam-dep/README.md`.
+
+## Demo Spa — TG Thang
+
+Theme **Spa** có tại `/theme-preview/?theme=spa` và `/admin/theme/all`. Giao diện tiếng Việt tham khảo 7Sky / Liqium với ảnh mở vòng tròn, chữ ghép theo cuộn, các nhóm liệu trình dạng vòm, thẻ quà xoay 3D, ảnh liệu trình ghim theo cuộn và slider chuyên viên. Có chi tiết liệu trình, lightbox ảnh, FAQ và form đặt lịch mẫu trên trình duyệt. Hướng dẫn và nguồn tư liệu nằm trong `platform/themes/spa/README.md`.
+
+## Demo Phòng gym — TG Thang
+
+Theme **Phòng gym** có tại `/theme-preview/?theme=gym` và `/admin/theme/all`. Giao diện tiếng Việt tham khảo Flexova với logo TG Thang Fitness riêng, tông đen–đỏ, banner video, carousel dịch vụ kéo ngang, số đếm và huấn luyện viên chuyển theo cuộn. Có gói hội viên, lịch lớp, menu, FAQ và form tập thử mẫu. Hướng dẫn và nguồn tư liệu nằm trong `platform/themes/gym/README.md`.
+
+## Demo Thời trang — TG Thang Atelier
+
+Theme **Thời trang** có tại `/theme-preview/?theme=fashion` và `/admin/theme/all`. Giao diện tiếng Việt tham khảo AGNESTOTH: video điện ảnh, chữ serif lớn, hai bộ sưu tập chạy ngang theo cuộn, ảnh chi tiết đổi khi hover, thiết kế đặt riêng chuyển cảnh, túi video xoay 360° với sáu màu, gallery và wordmark cuối trang chuyển động. Logo TG Thang dùng chung với theme Làm đẹp. Có lightbox, danh sách yêu thích và lịch hẹn mẫu tại trình duyệt; hướng dẫn và nguồn tư liệu nằm trong `platform/themes/fashion/README.md`.

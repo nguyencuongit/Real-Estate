@@ -1,0 +1,9 @@
+{
+    "id": "local/lam-dep",
+    "name": "Làm đẹp",
+    "namespace": "Theme\\TGThangBeauty\\",
+    "author": "TG Thang",
+    "version": "1.0.0",
+    "description": "Theme làm đẹp TG Thang bằng tiếng Việt: video, ảnh chuyển động, dịch vụ tương tác và đặt lịch mẫu.",
+    "required_plugins": []
+}

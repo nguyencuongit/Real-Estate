@@ -14,7 +14,7 @@ class LumiAcademyThemeTest extends TestCase
         $themes = Manager::refreshThemes();
 
         $this->assertArrayHasKey('lumi-academy', $themes);
-        $this->assertSame('Lumi Academy', $themes['lumi-academy']['name']);
+        $this->assertSame('Khóa học', $themes['lumi-academy']['name']);
         $this->assertEmpty($themes['lumi-academy']['required_plugins']);
     }
 
@@ -24,7 +24,7 @@ class LumiAcademyThemeTest extends TestCase
             ->assertOk()
             ->assertViewHas('themes', fn (array $themes): bool => collect($themes)->contains(
                 fn (array $theme): bool => $theme['id'] === 'lumi-academy'
-                    && $theme['name'] === 'Lumi Academy'
+                    && $theme['name'] === 'Khóa học'
                     && $theme['url'] === url('/theme-preview/demo/lumi-academy')
             ));
     }
@@ -50,8 +50,17 @@ class LumiAcademyThemeTest extends TestCase
 
         $this->actingAs($admin)->get('/admin/theme/all')
             ->assertOk()
-            ->assertSee('Lumi Academy');
+            ->assertSee('Khóa học');
 
         $this->assertFileExists(theme_path('lumi-academy/screenshot.png'));
+    }
+
+    public function test_faq_questions_are_not_hidden_by_scroll_reveal(): void
+    {
+        $html = $this->get('/theme-preview/demo/lumi-academy')->assertOk()->getContent();
+
+        $this->assertSame(1, preg_match('/<section id="faq".*?<\/section>/s', $html, $matches));
+        $this->assertSame(5, substr_count($matches[0], '<details'));
+        $this->assertDoesNotMatchRegularExpression('/<details\b[^>]*\bdata-reveal\b/', $matches[0]);
     }
 }

@@ -1,0 +1,9 @@
+{
+    "id": "local/gym",
+    "name": "Phòng gym",
+    "namespace": "Theme\\TGThangGym\\",
+    "author": "TG Thang",
+    "version": "1.0.0",
+    "description": "Phòng gym TG Thang bằng tiếng Việt: banner video, carousel dịch vụ, huấn luyện viên theo cuộn và đăng ký tập thử mẫu.",
+    "required_plugins": []
+}

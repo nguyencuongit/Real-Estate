@@ -1,0 +1,9 @@
+{
+    "id": "local/tg-thang",
+    "name": "Công ty xây dựng — TG Thang",
+    "namespace": "Theme\\TGThang\\",
+    "author": "TG Thang",
+    "version": "1.0.0",
+    "description": "Theme công ty xây dựng tiếng Việt với phong cách kỹ thuật, mô hình công trình 3D và dự án mẫu.",
+    "required_plugins": []
+}
