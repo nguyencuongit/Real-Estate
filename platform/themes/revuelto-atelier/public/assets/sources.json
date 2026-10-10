@@ -1,0 +1,106 @@
+[
+  {
+    "name": "hero",
+    "url": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/revuelto/og.jpg",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "name": "exterior-a",
+    "url": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/0_facelift_2025/model_details_new/revuelto_2/27_03_2026/Revuelto_02-Exterior-H_Chapter-Main_Still-B_Config-Alt-A-last-optim.jpg",
+    "size": [
+      1920,
+      945
+    ]
+  },
+  {
+    "name": "exterior-b",
+    "url": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/0_facelift_2025/model_details_new/revuelto_2/27_03_2026/Revuelto_02-Exterior-H_Chapter-Main_Still-B_Config-Alt-B-last-optim.jpg",
+    "size": [
+      1920,
+      945
+    ]
+  },
+  {
+    "name": "exterior-c",
+    "url": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/0_facelift_2025/model_details_new/revuelto_2/27_03_2026/Revuelto_02-Exterior-H_Chapter-Main_Still-B_Config-Alt-C-last-optim.jpg",
+    "size": [
+      1920,
+      945
+    ]
+  },
+  {
+    "name": "interior",
+    "url": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/0_facelift_2025/model_details_new/revuelto_2/Revuelto_03-Interior-H_Chapter-Main_Still-B-optim.jpg",
+    "size": [
+      1920,
+      1014
+    ]
+  },
+  {
+    "name": "headlight",
+    "url": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/0_facelift_2025/model_details_new/revuelto_2/cross-fade/Revuelto_02-Exterior-H_Card-Headlight-last-optim.jpg",
+    "size": [
+      1744,
+      1000
+    ]
+  },
+  {
+    "name": "rear",
+    "url": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/0_facelift_2025/model_details_new/revuelto_2/cross-fade/Revuelto_02-Exterior-H_Card-Rear-last-optim.jpg",
+    "size": [
+      1744,
+      1000
+    ]
+  },
+  {
+    "name": "engine",
+    "url": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/0_facelift_2025/model_details_new/revuelto_2/cross-fade/Revuelto_00-Mecha-H_Card-Engine-last-optim.jpg",
+    "size": [
+      1744,
+      1000
+    ]
+  },
+  {
+    "name": "intake",
+    "url": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/0_facelift_2025/model_details_new/revuelto_2/cross-fade/27_03_2026/Revuelto_01-Aero-H_Card-SideAirIntake-last-optim.jpg",
+    "size": [
+      1744,
+      1000
+    ]
+  },
+  {
+    "name": "road-1",
+    "url": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/0_facelift_2025/model_details/revuelto/gallery1-desktop.jpg",
+    "size": [
+      1920,
+      1098
+    ]
+  },
+  {
+    "name": "road-2",
+    "url": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/0_facelift_2025/model_details/revuelto/gallery2-desktop.jpg",
+    "size": [
+      1920,
+      1098
+    ]
+  },
+  {
+    "name": "road-3",
+    "url": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/0_facelift_2025/model_details/revuelto/gallery3-desktop.jpg",
+    "size": [
+      1920,
+      1098
+    ]
+  },
+  {
+    "name": "craft",
+    "url": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/0_facelift_2025/model_details/revuelto/centrostile1-desktop.jpg",
+    "size": [
+      1920,
+      1098
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+    "id": "local/spa",
+    "name": "Spa",
+    "namespace": "Theme\\TGThangSpa\\",
+    "author": "TG Thang",
+    "version": "1.0.0",
+    "description": "Spa TG Thang tiếng Việt: chuyển cảnh vòng tròn, lá mở, thẻ quà 3D và liệu trình chuyển động theo cuộn.",
+    "required_plugins": []
+}

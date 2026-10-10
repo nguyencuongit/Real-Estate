@@ -1,9 +1,15 @@
 <?php
 
-namespace Theme\Gym\Http\Controllers;
+namespace Theme\TGThangGym\Http\Controllers;
 
-use Botble\Theme\Http\Controllers\PublicController;
+use Botble\Base\Http\Controllers\BaseController;
+use Botble\Theme\Facades\Theme;
+use Illuminate\Http\Response;
 
-class GymController extends PublicController
+class GymController extends BaseController
 {
+    public function __invoke(): Response
+    {
+        return Theme::layout('default')->scope('index')->render();
+    }
 }

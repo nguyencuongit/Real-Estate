@@ -1,0 +1,11 @@
+<section class="bespoke split-editorial" id="fashion-bespoke" data-scene="zoom" aria-labelledby="bespoke-title">
+    <div class="bespoke-images" data-bespoke>
+        @for($i = 1; $i <= 4; $i++)
+            <img class="{{ $i === 1 ? 'active' : '' }}" src="{{ $asset('assets/piece-slide-' . $i . '.webp') }}" alt="Thiết kế thủ công tại atelier, góc nhìn {{ $i }}" width="1000" height="670" loading="lazy">
+        @endfor
+        <div class="bespoke-dots" aria-label="Ảnh thiết kế đặt riêng">@for($i = 1; $i <= 4; $i++)<button aria-label="Xem ảnh đặt riêng {{ $i }}" aria-pressed="{{ $i === 1 ? 'true' : 'false' }}" data-bespoke-slide="{{ $i - 1 }}">0{{ $i }}</button>@endfor</div>
+    </div>
+    <div class="editorial-copy"><p class="eyebrow">THIẾT KẾ ĐẶT RIÊNG</p><h2 id="bespoke-title" data-word-reveal>Chỉ dành riêng<br><em>cho bạn.</em></h2><p>Một gam màu bạn yêu. Một loài hoa gợi nhớ. Một câu chuyện cần được kể. Cùng TG Thang biến những cảm hứng ấy thành món phụ kiện mang dấu ấn cá nhân.</p><button class="text-link" data-open="fashion-booking">Bắt đầu câu chuyện của bạn</button><ol class="bespoke-steps"><li><span>I</span> Lắng nghe</li><li><span>II</span> Phác thảo</li><li><span>III</span> Chế tác</li><li><span>IV</span> Đồng hành</li></ol></div>
+</section>
+<section class="full-editorial quiet" data-scene="zoom" aria-labelledby="quiet-title"><img data-parallax src="{{ $asset('assets/home-woman.webp') }}" alt="Phong cách thanh lịch cùng chiếc túi thêu trong không gian cổ điển" width="1600" height="1067" loading="lazy"><div><h2 id="quiet-title" data-word-reveal>Vẻ đẹp không cần<br>lên tiếng.<br><em>Chỉ cần được cảm nhận.</em></h2><a class="text-link" href="#fashion-thermal">Khám phá Giao sắc</a></div></section>
+<section class="city split-editorial" data-scene="wipe"><div class="editorial-photo"><img data-parallax src="{{ $asset('assets/home-budapest.webp') }}" alt="Kiến trúc và thời trang trong không gian thanh lịch" loading="lazy" width="1600" height="1067"></div><div class="editorial-copy"><p class="eyebrow">CẢM HỨNG TỪ NHỮNG CHUYẾN ĐI</p><h2 data-word-reveal>Mang vẻ đẹp<br>của một nơi chốn<br><em>bên mình.</em></h2><p>Những ô cửa cổ, một khu vườn nhỏ, ánh chiều trên phố. Vẻ đẹp đời thường trở thành họa tiết, theo bạn đến những nơi chưa từng đặt chân.</p><a class="text-link" href="#fashion-spinner">Nhìn gần hơn</a></div></section>

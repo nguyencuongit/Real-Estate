@@ -1,1 +1,0 @@
-Help me implement this scroll animation component, as i scroll one of shape center, become bigger and connect to all other smaller shapes

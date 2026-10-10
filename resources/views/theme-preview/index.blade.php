@@ -10,12 +10,13 @@
         body { overflow: hidden; background: #eef1f5; }
         #theme-preview-frame { display: block; width: 100%; height: 100%; border: 0; background: white; }
         .preview-toggle {
-            position: fixed; z-index: 10001; top: 16px; left: 16px; border: 0; border-radius: 9px;
+            position: fixed; z-index: 10001; bottom: 16px; left: 16px; border: 0; border-radius: 9px;
             padding: 11px 15px; color: white; background: #172033; box-shadow: 0 5px 18px #0003;
             font-size: 14px; font-weight: 600; cursor: pointer;
         }
         .preview-panel {
-            position: fixed; z-index: 10000; top: 66px; left: 16px; width: 250px; padding: 16px;
+            position: fixed; z-index: 10000; bottom: 66px; left: 16px; width: 250px; padding: 16px;
+            max-height: calc(100vh - 100px); overflow-y: auto;
             border: 1px solid #e3e7ee; border-radius: 12px; background: white;
             box-shadow: 0 12px 36px #0003;
         }
@@ -73,7 +74,11 @@
                 button.textContent = theme.name;
                 button.dataset.theme = theme.id;
                 button.setAttribute('aria-current', theme.id === currentTheme.id ? 'true' : 'false');
-                button.addEventListener('click', () => chooseTheme(theme));
+                button.addEventListener('click', () => {
+                    chooseTheme(theme);
+                    panel.hidden = true;
+                    toggle.setAttribute('aria-expanded', 'false');
+                });
                 list.appendChild(button);
             });
 
@@ -83,6 +88,10 @@
             });
 
             chooseTheme(currentTheme);
+            if (requestedTheme === currentTheme.id) {
+                panel.hidden = true;
+                toggle.setAttribute('aria-expanded', 'false');
+            }
         })();
     </script>
 </body>

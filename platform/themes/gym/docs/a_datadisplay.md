@@ -1,1 +1,0 @@
-Numbers are displayed in large font with a **count-up animation**, triggering a **dynamic increase effect when scrolling into the viewport**—suitable for data display sections or statistical information areas.

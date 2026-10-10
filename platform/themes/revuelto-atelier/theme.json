@@ -1,0 +1,9 @@
+{
+    "id": "local/revuelto-atelier",
+    "name": "Giới thiệu xe ô tô",
+    "namespace": "Theme\\RevueltoAtelier\\",
+    "author": "VANTA Atelier",
+    "version": "1.0.0",
+    "description": "Demo giới thiệu Lamborghini Revuelto với cảnh 3D, xem xe 360 độ và bản phối mẫu.",
+    "required_plugins": []
+}

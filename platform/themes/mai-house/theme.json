@@ -1,0 +1,9 @@
+{
+    "id": "local/mai-house",
+    "name": "Mai House",
+    "namespace": "Theme\\MaiHouse\\",
+    "author": "Local",
+    "version": "1.0.0",
+    "description": "Landing page giới thiệu dự án bất động sản Mai House.",
+    "required_plugins": ["contact"]
+}

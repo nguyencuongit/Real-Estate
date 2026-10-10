@@ -62,6 +62,17 @@ Route::get('/theme-preview/demo/{theme}', function (string $theme) {
     }
 })->name('theme-preview.demo');
 
+// BinaryFileResponse supports byte ranges, including with PHP's local server.
+Route::get('/theme-preview/media/fashion/{video}', function (string $video) {
+    $path = theme_path('fashion') . '/public/assets/' . $video;
+    abort_unless(File::isFile($path), 404);
+
+    return response()->file($path, [
+        'Content-Type' => 'video/mp4',
+        'Cache-Control' => 'public, max-age=86400',
+    ]);
+})->where('video', 'spinner-[1-6]\.mp4')->name('theme-preview.fashion-video');
+
 Route::get('/theme-preview/shofy', function () {
     $theme = app(\Botble\Theme\Theme::class);
     $themeReflection = new \ReflectionClass($theme);
